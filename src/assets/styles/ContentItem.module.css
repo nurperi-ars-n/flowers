@@ -1,0 +1,113 @@
+.container {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.wrapper {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.about {
+  max-width: 480px;
+}
+
+.aboutList {
+  margin-top: 1rem;
+}
+
+.aboutList b {
+  font-weight: 600;
+}
+
+.title {
+  margin-top: 50px;
+  text-align: center;
+  font-family: Arial;
+  color: black;
+}
+
+.title span {
+  font-size: 2rem;
+}
+
+.title span::before,
+.title span::after {
+  display: inline-block;
+  content: "";
+  border-top: 0.2rem solid black;
+  width: 100%;
+  margin: 0 1rem;
+  transform: translateY(-10px);
+}
+
+.gifts {
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.gifts p {
+  color: black;
+}
+
+.gifts h4 {
+  text-align: start;
+}
+
+.price {
+  border: 1px solid #828282;
+  padding: 5px;
+
+  margin-bottom: 10px;
+}
+
+/* footer */
+
+.towns * {
+  width: 100%;
+  font-weight: 600;
+  color: black;
+}
+
+.flex {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ShowAllTowns {
+  text-align: center;
+}
+
+.ShowAllTowns:hover {
+  opacity: 0.7;
+}
+
+/* footer */
+footer img {
+  width: 30px;
+  height: 30px;
+}
+
+.credits {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .wrapper {
+    justify-content: center;
+  }
+}

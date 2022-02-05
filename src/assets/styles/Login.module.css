@@ -1,0 +1,41 @@
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+
+.form {
+    background-color: rgb(252,254,252);
+    height: 350px;
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.inputs input {
+    font-size: 20px;
+    background: rgb(239,240,239);
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+
+.submitButton {
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    width: 90%;
+    height: 40px;
+}
+
+.error {
+    color: red;
+}

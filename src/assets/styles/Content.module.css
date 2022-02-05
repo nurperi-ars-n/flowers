@@ -1,0 +1,33 @@
+.flowersBlock {
+	/* max-width: 900px; */
+	display: flex;
+	justify-content: center;
+	gap: 70px;
+	flex-wrap: wrap;
+}
+
+.flower {
+	width: 280px;
+	margin-bottom: 40px;
+}
+
+.flower:nth-child(3) {
+	margin-right: 0;
+}
+
+.flowerImg {
+	width: 263px;
+	height: 350px;
+}
+
+@media screen and (max-width: 600px) {
+	.flowersBlock {
+		width: 100%;
+		margin: 0 auto;
+		justify-content: center;
+	}
+
+	.flowerImg {
+		width: 100%;
+	}
+}

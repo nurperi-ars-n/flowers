@@ -1,0 +1,24 @@
+.title {
+	margin-top: 50px;
+	text-align: center;
+	font-family: Arial;
+	color: black;
+}
+
+.title span {
+	font-size: 2rem;
+}
+
+.title span::before,
+.title span::after {
+	display: inline-block;
+	content: "";
+	border-top: 0.2rem solid black;
+	width: 100%;
+	transform: translateY(-10px);
+}
+
+footer img {
+	width: 30px;
+	height: 30px;
+}

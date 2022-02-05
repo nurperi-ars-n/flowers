@@ -1,0 +1,96 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.sidebar {
+    background-color: rgb(5, 68, 104);
+    text-align: center;
+    width: 400px;
+    height: 100%;
+    
+}
+
+
+.profile {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.profile h3 {
+    color: #ffffff;
+    margin: 10px 0 5px;
+}
+
+.profile p {
+    color: rgb(206, 240, 253);
+    font-size: 25px;
+}
+
+.sidebar span {
+    font-size: 20px;
+}
+.panel li {
+    background-color: transparent;
+    padding: 13px 30px;
+    border-bottom: 1px solid #10558d;
+    border-top: 1px solid #10558d;
+}
+.panel li a{
+    color: rgb(241, 241, 241);
+    font-size: 16px;
+
+}
+
+.panel li :hover{
+    color: #0c7db1;
+}
+
+.main {
+    margin-top: 80px;
+    display: block;
+    margin-left: 250px;
+    color: black;
+}
+
+.mainContent {
+    padding: 10px;
+    background-color: snow;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px grey;
+}
+
+.boxStyle {
+    width: 100%;
+    text-align: center;
+    border: 1px solid grey;
+    border-collapse: collapse;
+
+
+}
+
+.boxStyle th {
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.flowerItem td {
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    padding: 10px;
+
+}
+
+
+
+.logOutButton {
+    margin-right: 300px;
+}
+
+.logOutButton:hover {
+    color: white;
+}

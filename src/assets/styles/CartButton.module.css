@@ -1,0 +1,18 @@
+
+
+.cartStyle {
+    position: relative;
+}
+
+
+.round {
+    position: absolute;
+    top: 20px;
+    right: -10px;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: crimson;
+    text-align: center;
+    color: wheat;
+}
